@@ -1,0 +1,932 @@
+mworkste@Pi5agv:~$ ls -R "/usr/lib/modules/6.12.30-g0c56a5112963/"
+/usr/lib/modules/6.12.30-g0c56a5112963/:
+build   modules.alias      modules.builtin.alias.bin  modules.dep      modules.order    modules.symbols.bin
+extra   modules.alias.bin  modules.builtin.bin        modules.dep.bin  modules.softdep
+kernel  modules.builtin    modules.builtin.modinfo    modules.devname  modules.symbols
+
+/usr/lib/modules/6.12.30-g0c56a5112963/extra:
+ec_master.ko  ec_r8169.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel:
+arch  crypto  drivers  fs  lib  net  sound
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/arch:
+arm64
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/arch/arm64:
+crypto  lib
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/arch/arm64/crypto:
+aes-neon-blk.ko  aes-neon-bs.ko  crct10dif-ce.ko  sha3-ce.ko  sha512-arm64.ko  sha512-ce.ko  sm3-ce.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/arch/arm64/lib:
+xor-neon.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/crypto:
+af_alg.ko      blake2b_generic.ko  crypto_engine.ko       des_generic.ko   gcm.ko            sm3_generic.ko  tcrypt.ko          zstd.ko
+algif_rng.ko   cbc.ko              ctr.ko                 dh_generic.ko    ghash-generic.ko  sm3.ko          xor.ko
+authencesn.ko  ccm.ko              curve25519-generic.ko  ecc.ko           md5.ko            sm4_generic.ko  xts.ko
+authenc.ko     cmac.ko             deflate.ko             ecdh_generic.ko  michael_mic.ko    sm4.ko          xxhash_generic.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers:
+ata        bus      cpufreq  extcon    gpio   hwtracing  leds   misc  nfc    perf      power      rpmsg    soc        thermal  xen
+base       char     crypto   firmware  gpu    i2c        md     mtd   nvme   phy       pwm        rtc      soundwire  ufs
+block      clk      devfreq  fpga      hid    iio        media  mux   nvmem  pinctrl   regulator  scsi     spi        usb
+bluetooth  counter  dma      gnss      hwmon  input      mfd    net   pci    platform  reset      slimbus  staging    video
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/ata:
+ahci_dwc.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/base:
+regmap
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/base/regmap:
+regmap-sdw.ko  regmap-slimbus.ko  regmap-spmi.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/block:
+nbd.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/bluetooth:
+btbcm.ko  btintel.ko  btmrvl.ko  btmrvl_sdio.ko  btmtk.ko  btnxpuart.ko  btqca.ko  btrsi.ko  btrtl.ko  btusb.ko  hci_uart.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/bus:
+mhi
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/bus/mhi:
+host
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/bus/mhi/host:
+mhi.ko  mhi_pci_generic.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/char:
+ipmi  tpm
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/char/ipmi:
+ipmi_devintf.ko  ipmi_msghandler.ko  ipmi_si.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/char/tpm:
+tpm_tis_core.ko  tpm_tis_i2c_cr50.ko  tpm_tis.ko  tpm_tis_spi.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/clk:
+clk-bd718x7.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/counter:
+counter.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/cpufreq:
+cppc_cpufreq.ko  cpufreq_conservative.ko  cpufreq_powersave.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/crypto:
+amlogic  ccree  hisilicon
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/crypto/amlogic:
+amlogic-gxl-crypto.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/crypto/ccree:
+ccree.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/crypto/hisilicon:
+hisi_qm.ko  hpre  sec2  trng  zip
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/crypto/hisilicon/hpre:
+hisi_hpre.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/crypto/hisilicon/sec2:
+hisi_sec2.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/crypto/hisilicon/trng:
+hisi-trng-v2.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/crypto/hisilicon/zip:
+hisi_zip.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/devfreq:
+governor_passive.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/dma:
+bcm-sba-raid.ko  dw-edma
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/dma/dw-edma:
+dw-edma.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/extcon:
+extcon-ptn5150.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/firmware:
+google
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/firmware/google:
+cbmem.ko  coreboot_table.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/fpga:
+altera-cvp.ko  altera-freeze-bridge.ko  fpga-bridge.ko  fpga-region.ko  of-fpga-region.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/gnss:
+gnss.ko  gnss-mtk.ko  gnss-serial.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/gpio:
+gpio-adp5585.ko  gpio-aggregator.ko  gpio-altera.ko  gpio-bd9571mwv.ko  gpio-regmap.ko  gpio-wcd934x.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/gpu:
+drm
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/gpu/drm:
+arm      drm_dma_helper.ko  drm_kms_helper.ko    drm_ttm_helper.ko   hisilicon    lima     panfrost  rockchip   ttm
+bridge   drm_exec.ko        drm.ko               drm_vram_helper.ko  i2c          nouveau  panthor   scheduler
+display  drm_gpuvm.ko       drm_shmem_helper.ko  etnaviv             imagination  panel    pl111     tidss
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/gpu/drm/arm:
+display  hdlcd.ko  mali-dp.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/gpu/drm/arm/display:
+komeda
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/gpu/drm/arm/display/komeda:
+komeda.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/gpu/drm/bridge:
+adv7511            cadence               lontium-lt9611.ko     samsung-dsim.ko   tc358767.ko      ti-sn65dsi86.ko
+analogix           display-connector.ko  lontium-lt9611uxc.ko  sii902x.ko        tc358768.ko      ti-tfp410.ko
+aux-bridge.ko      ite-it66121.ko        nwl-dsi.ko            simple-bridge.ko  thc63lvd1024.ko
+aux-hpd-bridge.ko  lontium-lt8912b.ko    parade-ps8640.ko      synopsys          ti-sn65dsi83.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/gpu/drm/bridge/adv7511:
+adv7511.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/gpu/drm/bridge/analogix:
+analogix_dp.ko  anx7625.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/gpu/drm/bridge/cadence:
+cdns-mhdp8546.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/gpu/drm/bridge/synopsys:
+dw-hdmi-ahb-audio.ko  dw-hdmi-cec.ko  dw-hdmi-i2s-audio.ko  dw-hdmi.ko  dw-mipi-dsi.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/gpu/drm/display:
+drm_display_helper.ko  drm_dp_aux_bus.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/gpu/drm/etnaviv:
+etnaviv.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/gpu/drm/hisilicon:
+hibmc  kirin
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/gpu/drm/hisilicon/hibmc:
+hibmc-drm.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/gpu/drm/hisilicon/kirin:
+dw_drm_dsi.ko  kirin-drm.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/gpu/drm/i2c:
+ch7006.ko  sil164.ko  tda998x.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/gpu/drm/imagination:
+powervr.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/gpu/drm/lima:
+lima.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/gpu/drm/nouveau:
+nouveau.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/gpu/drm/panel:
+panel-boe-tv101wum-nl6.ko  panel-khadas-ts050.ko        panel-novatek-nt36672e.ko    panel-simple.ko           panel-visionox-vtdr6130.ko
+panel-edp.ko               panel-lvds.ko                panel-raydium-rm67191.ko     panel-sitronix-st7703.ko
+panel-ilitek-ili9882t.ko   panel-mantix-mlaf057we51.ko  panel-samsung-atna33xc20.ko  panel-truly-nt35597.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/gpu/drm/panfrost:
+panfrost.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/gpu/drm/panthor:
+panthor.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/gpu/drm/pl111:
+pl111_drm.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/gpu/drm/rockchip:
+rockchipdrm.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/gpu/drm/scheduler:
+gpu-sched.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/gpu/drm/tidss:
+tidss.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/gpu/drm/ttm:
+ttm.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/hid:
+hid-multitouch.ko  i2c-hid
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/hid/i2c-hid:
+i2c-hid-acpi.ko  i2c-hid.ko  i2c-hid-of-elan.ko  i2c-hid-of.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/hwmon:
+gpio-fan.ko  ina2xx.ko  ina3221.ko  jc42.ko  lm75.ko  lm90.ko  pwm-fan.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/hwtracing:
+coresight  stm
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/hwtracing/coresight:
+coresight-catu.ko       coresight-cti.ko    coresight-funnel.ko  coresight-replicator.ko  coresight-tmc.ko
+coresight-cpu-debug.ko  coresight-etb10.ko  coresight.ko         coresight-stm.ko         coresight-tpiu.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/hwtracing/stm:
+stm_core.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/i2c:
+busses
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/i2c/busses:
+i2c-cadence.ko  i2c-gpio.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/iio:
+adc  buffer  common  imu  light  magnetometer  pressure
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/iio/adc:
+max9611.ko  qcom-spmi-adc5.ko  qcom-spmi-vadc.ko  qcom-vadc-common.ko  rockchip_saradc.ko  ti-ads1015.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/iio/buffer:
+industrialio-triggered-buffer.ko  kfifo_buf.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/iio/common:
+cros_ec_sensors  st_sensors
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/iio/common/cros_ec_sensors:
+cros_ec_sensors_core.ko  cros_ec_sensors.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/iio/common/st_sensors:
+st_sensors_i2c.ko  st_sensors.ko  st_sensors_spi.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/iio/imu:
+st_lsm6dsx
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/iio/imu/st_lsm6dsx:
+st_lsm6dsx_i2c.ko  st_lsm6dsx.ko  st_lsm6dsx_spi.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/iio/light:
+cros_ec_light_prox.ko  isl29018.ko  vcnl4000.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/iio/magnetometer:
+st_magn_i2c.ko  st_magn.ko  st_magn_spi.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/iio/pressure:
+cros_ec_baro.ko  mpl3115.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/input:
+keyboard  misc  mouse  touchscreen
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/input/keyboard:
+adc-keys.ko  gpio_keys_polled.ko  mtk-pmic-keys.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/input/misc:
+da9063_onkey.ko  pwm-beeper.ko  pwm-vibra.ko  rk805-pwrkey.ko  tps65219-pwrbutton.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/input/mouse:
+elan_i2c.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/input/touchscreen:
+atmel_mxt_ts.ko  edt-ft5x06.ko  elants_i2c.ko  goodix_berlin_core.ko  goodix_berlin_spi.ko  goodix_ts.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/leds:
+led-class-multicolor.ko  leds-cros_ec.ko  leds-lm3692x.ko  leds-pca9532.ko  rgb
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/leds/rgb:
+leds-qcom-lpg.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/md:
+dm-log.ko  dm-mirror.ko  dm-mod.ko  dm-region-hash.ko  dm-zero.ko  md-mod.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/media:
+cec  common  dvb-core  i2c  mc  platform  rc  tuners  usb  v4l2-core
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/media/cec:
+core
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/media/cec/core:
+cec.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/media/common:
+uvc.ko  videobuf2
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/media/common/videobuf2:
+videobuf2-common.ko  videobuf2-dma-contig.ko  videobuf2-memops.ko  videobuf2-v4l2.ko  videobuf2-vmalloc.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/media/dvb-core:
+dvb-core.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/media/i2c:
+imx219.ko  imx412.ko  ir-kbd-i2c.ko  ov5640.ko  ov5645.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/media/mc:
+mc.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/media/platform:
+cadence  verisilicon
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/media/platform/cadence:
+cdns-csi2rx.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/media/platform/verisilicon:
+hantro-vpu.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/media/rc:
+gpio-ir-recv.ko  keymaps  rc-core.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/media/rc/keymaps:
+rc-adstech-dvb-t-pci.ko      rc-dreambox.ko               rc-manli.ko                    rc-su3000.ko
+rc-alink-dtu-m.ko            rc-dtt200u.ko                rc-mecool-kiii-pro.ko          rc-tanix-tx3mini.ko
+rc-anysee.ko                 rc-dvbsky.ko                 rc-mecool-kii-pro.ko           rc-tanix-tx5max.ko
+rc-apac-viewcomp.ko          rc-dvico-mce.ko              rc-medion-x10-digitainer.ko    rc-tbs-nec.ko
+rc-astrometa-t2hybrid.ko     rc-dvico-portable.ko         rc-medion-x10.ko               rc-technisat-ts35.ko
+rc-asus-pc39.ko              rc-em-terratec.ko            rc-medion-x10-or2x.ko          rc-technisat-usb2.ko
+rc-asus-ps3-100.ko           rc-encore-enltv2.ko          rc-minix-neo.ko                rc-terratec-cinergy-c-pci.ko
+rc-ati-tv-wonder-hd-600.ko   rc-encore-enltv-fm53.ko      rc-msi-digivox-iii.ko          rc-terratec-cinergy-s2-hd.ko
+rc-ati-x10.ko                rc-encore-enltv.ko           rc-msi-digivox-ii.ko           rc-terratec-cinergy-xs.ko
+rc-avermedia-a16d.ko         rc-evga-indtube.ko           rc-msi-tvanywhere.ko           rc-terratec-slim-2.ko
+rc-avermedia-cardbus.ko      rc-eztv.ko                   rc-msi-tvanywhere-plus.ko      rc-terratec-slim.ko
+rc-avermedia-dvbt.ko         rc-flydvb.ko                 rc-mygica-utv3.ko              rc-tevii-nec.ko
+rc-avermedia.ko              rc-flyvideo.ko               rc-nebula.ko                   rc-tivo.ko
+rc-avermedia-m135a.ko        rc-fusionhdtv-mce.ko         rc-nec-terratec-cinergy-xs.ko  rc-total-media-in-hand-02.ko
+rc-avermedia-m733a-rm-k6.ko  rc-gadmei-rm008z.ko          rc-norwood.ko                  rc-total-media-in-hand.ko
+rc-avermedia-rm-ks.ko        rc-geekbox.ko                rc-npgtech.ko                  rc-trekstor.ko
+rc-avertv-303.ko             rc-genius-tvgo-a11mce.ko     rc-odroid.ko                   rc-tt-1500.ko
+rc-azurewave-ad-tu700.ko     rc-gotview7135.ko            rc-pctv-sedna.ko               rc-twinhan1027.ko
+rc-beelink-gs1.ko            rc-hauppauge.ko              rc-pine64.ko                   rc-twinhan-dtv-cab-ci.ko
+rc-beelink-mxiii.ko          rc-hisi-poplar.ko            rc-pinnacle-color.ko           rc-vega-s9x.ko
+rc-behold-columbus.ko        rc-hisi-tv-demo.ko           rc-pinnacle-grey.ko            rc-videomate-m1f.ko
+rc-behold.ko                 rc-imon-mce.ko               rc-pinnacle-pctv-hd.ko         rc-videomate-s350.ko
+rc-budget-ci-old.ko          rc-imon-pad.ko               rc-pixelview-002t.ko           rc-videomate-tv-pvr.ko
+rc-cinergy-1400.ko           rc-imon-rsc.ko               rc-pixelview.ko                rc-videostrong-kii-pro.ko
+rc-cinergy.ko                rc-iodata-bctv7e.ko          rc-pixelview-mk12.ko           rc-wetek-hub.ko
+rc-ct-90405.ko               rc-it913x-v1.ko              rc-pixelview-new.ko            rc-wetek-play2.ko
+rc-d680-dmb.ko               rc-it913x-v2.ko              rc-powercolor-real-angel.ko    rc-winfast.ko
+rc-delock-61959.ko           rc-kaiomy.ko                 rc-proteus-2309.ko             rc-winfast-usbii-deluxe.ko
+rc-dib0700-nec.ko            rc-khadas.ko                 rc-purpletv.ko                 rc-x96max.ko
+rc-dib0700-rc5.ko            rc-khamsin.ko                rc-pv951.ko                    rc-xbox-360.ko
+rc-digitalnow-tinytwin.ko    rc-kworld-315u.ko            rc-rc6-mce.ko                  rc-xbox-dvd.ko
+rc-digittrade.ko             rc-kworld-pc150u.ko          rc-real-audio-220-32-keys.ko   rc-zx-irdec.ko
+rc-dm1105-nec.ko             rc-kworld-plus-tv-analog.ko  rc-reddo.ko
+rc-dntv-live-dvb-t.ko        rc-leadtek-y04g0051.ko       rc-snapstream-firefly.ko
+rc-dntv-live-dvbt-pro.ko     rc-lme2510.ko                rc-streamzap.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/media/tuners:
+mc44s803.ko  mt20xx.ko  tda18271.ko  tda827x.ko  tda8290.ko  tda9887.ko  tuner-simple.ko  tuner-types.ko  xc2028.ko  xc4000.ko  xc5000.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/media/usb:
+uvc
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/media/usb/uvc:
+uvcvideo.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/media/v4l2-core:
+v4l2-async.ko  v4l2-cci.ko  v4l2-dv-timings.ko  v4l2-fwnode.ko  v4l2-h264.ko  v4l2-jpeg.ko  v4l2-mem2mem.ko  v4l2-vp9.ko  videodev.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/mfd:
+adp5585.ko  da9062-core.ko  khadas-mcu.ko  lp873x.ko  tps6594-core.ko  tps6594-i2c.ko  wcd934x.ko  wm8994.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/misc:
+eeprom  pci_endpoint_test.ko  tps6594-esm.ko  tps6594-pfsm.ko  uacce
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/misc/eeprom:
+at24.ko  at25.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/misc/uacce:
+uacce.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/mtd:
+hyperbus  nand  ubi
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/mtd/hyperbus:
+hyperbus-core.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/mtd/nand:
+raw
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/mtd/nand/raw:
+brcmnand
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/mtd/nand/raw/brcmnand:
+bcmbca_nand.ko  brcmnand.ko  brcmstb_nand.ko  iproc_nand.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/mtd/ubi:
+ubi.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/mux:
+mux-gpio.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net:
+can  dsa  ethernet  macvlan.ko  macvtap.ko  mhi_net.ko  pcs  phy  tap.ko  usb  veth.ko  wireless  wwan
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/can:
+can327.ko  dev  esd  flexcan  m_can  rockchip  sja1000  slcan  spi  usb
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/can/dev:
+can-dev.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/can/esd:
+esd_402_pci.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/can/flexcan:
+flexcan.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/can/m_can:
+m_can.ko  m_can_platform.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/can/rockchip:
+rockchip_canfd.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/can/sja1000:
+sja1000.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/can/slcan:
+slcan.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/can/spi:
+mcp251xfd
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/can/spi/mcp251xfd:
+mcp251xfd.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/can/usb:
+ems_usb.ko  esd_usb.ko  etas_es58x  f81604.ko  gs_usb.ko  kvaser_usb  mcba_usb.ko  peak_usb  ucan.ko  usb_8dev.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/can/usb/etas_es58x:
+etas_es58x.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/can/usb/kvaser_usb:
+kvaser_usb.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/can/usb/peak_usb:
+peak_usb.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/dsa:
+b53  bcm-sf2.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/dsa/b53:
+b53_common.ko  b53_srab.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/ethernet:
+arc  atheros  mellanox  qualcomm  realtek  stmicro
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/ethernet/arc:
+arc_emac.ko  emac_rockchip.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/ethernet/atheros:
+atl1c
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/ethernet/atheros/atl1c:
+atl1c.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/ethernet/mellanox:
+mlx4  mlx5
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/ethernet/mellanox/mlx4:
+mlx4_core.ko  mlx4_en.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/ethernet/mellanox/mlx5:
+core
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/ethernet/mellanox/mlx5/core:
+mlx5_core.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/ethernet/qualcomm:
+emac  rmnet
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/ethernet/qualcomm/emac:
+qcom-emac.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/ethernet/qualcomm/rmnet:
+rmnet.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/ethernet/realtek:
+8139cp.ko  r8169.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/ethernet/stmicro:
+stmmac
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/ethernet/stmicro/stmmac:
+dwmac-generic.ko  dwmac-rk.ko  stmmac.ko  stmmac-platform.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/pcs:
+pcs_xpcs.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/phy:
+ax88796b.ko  bcm54140.ko  bcm7xxx.ko  bcm-phy-lib.ko  broadcom.ko  dp83869.ko  marvell.ko  microchip.ko  smsc.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/usb:
+asix.ko          cdc_ether.ko  cdc_subset.ko  lan78xx.ko  net1080.ko  plusb.ko  r8153_ecm.ko  smsc75xx.ko  sr9800.ko  zaurus.ko
+ax88179_178a.ko  cdc_ncm.ko    dm9601.ko      mcs7830.ko  pegasus.ko  r8152.ko  rtl8150.ko    smsc95xx.ko  usbnet.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/wireless:
+ath  broadcom  intel  marvell  mediatek  rsi  ti
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/wireless/ath:
+ath10k  ath11k  ath12k  ath.ko  wcn36xx
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/wireless/ath/ath10k:
+ath10k_core.ko  ath10k_pci.ko  ath10k_sdio.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/wireless/ath/ath11k:
+ath11k_ahb.ko  ath11k.ko  ath11k_pci.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/wireless/ath/ath12k:
+ath12k.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/wireless/ath/wcn36xx:
+wcn36xx.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/wireless/broadcom:
+brcm80211
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/wireless/broadcom/brcm80211:
+brcmfmac  brcmutil
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac:
+bca  brcmfmac.ko  cyw  wcc
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/bca:
+brcmfmac-bca.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/cyw:
+brcmfmac-cyw.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/wcc:
+brcmfmac-wcc.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/wireless/broadcom/brcm80211/brcmutil:
+brcmutil.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/wireless/intel:
+iwlwifi
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/wireless/intel/iwlwifi:
+dvm  iwlwifi.ko  mvm
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/wireless/intel/iwlwifi/dvm:
+iwldvm.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/wireless/intel/iwlwifi/mvm:
+iwlmvm.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/wireless/marvell:
+mwifiex
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/wireless/marvell/mwifiex:
+mwifiex.ko  mwifiex_pcie.ko  mwifiex_sdio.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/wireless/mediatek:
+mt76
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/wireless/mediatek/mt76:
+mt76-connac-lib.ko  mt76.ko  mt7921  mt792x-lib.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/wireless/mediatek/mt76/mt7921:
+mt7921-common.ko  mt7921e.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/wireless/rsi:
+rsi_91x.ko  rsi_sdio.ko  rsi_usb.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/wireless/ti:
+wl18xx  wlcore
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/wireless/ti/wl18xx:
+wl18xx.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/wireless/ti/wlcore:
+wlcore.ko  wlcore_sdio.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/net/wwan:
+mhi_wwan_ctrl.ko  mhi_wwan_mbim.ko  wwan.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/nfc:
+s3fwrn5
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/nfc/s3fwrn5:
+s3fwrn5_i2c.ko  s3fwrn5.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/nvme:
+host
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/nvme/host:
+nvme-core.ko  nvme.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/nvmem:
+layouts  nvmem_qcom-spmi-sdam.ko  nvmem-rmem.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/nvmem/layouts:
+sl28vpd.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/pci:
+controller  endpoint  pcie
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/pci/controller:
+dwc
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/pci/controller/dwc:
+pci-meson.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/pci/endpoint:
+functions
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/pci/endpoint/functions:
+pci-epf-test.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/pci/pcie:
+aer_inject.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/perf:
+arm-cci.ko  arm-ccn.ko  arm-cmn.ko  arm_cspmu  arm_dmc620_pmu.ko  arm_dsu_pmu.ko  arm_smmuv3_pmu.ko  arm_spe_pmu.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/perf/arm_cspmu:
+arm_cspmu_module.ko  nvidia_cspmu.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/phy:
+cadence  phy-can-transceiver.ko  qualcomm  rockchip
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/phy/cadence:
+cdns-dphy-rx.ko  phy-cadence-salvo.ko  phy-cadence-sierra.ko  phy-cadence-torrent.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/phy/qualcomm:
+phy-qcom-usb-hs.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/phy/rockchip:
+phy-rockchip-inno-dsidphy.ko  phy-rockchip-naneng-combphy.ko  phy-rockchip-samsung-hdptx.ko
+phy-rockchip-inno-hdmi.ko     phy-rockchip-pcie.ko            phy-rockchip-usbdp.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/pinctrl:
+pinctrl-da9062.ko  pinctrl-rk805.ko  pinctrl-tps6594.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/platform:
+chrome
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/platform/chrome:
+cros_ec_chardev.ko  cros_ec_rpmsg.ko  cros-ec-typec.ko  cros_kbd_led_backlight.ko  cros_typec_switch.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/power:
+reset  sequencing  supply
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/power/reset:
+nvmem-reboot-mode.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/power/sequencing:
+pwrseq-core.ko  pwrseq-qcom-wcn.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/power/supply:
+bq25890_charger.ko  bq25980_charger.ko  max17042_battery.ko  mt6360_charger.ko  qcom_battmgr.ko  rk817_charger.ko  sbs-battery.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/pwm:
+pwm-adp5585.ko  pwm-cros-ec.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/regulator:
+da9211-regulator.ko  max20411-regulator.ko  qcom_usb_vbus-regulator.ko  tps6594-regulator.ko
+lp873x-regulator.ko  mt6315-regulator.ko    tps65132-regulator.ko       vctrl-regulator.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/reset:
+reset-gpio.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/rpmsg:
+rpmsg_char.ko  rpmsg_ctrl.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/rtc:
+rtc-bq32k.ko   rtc-ds1307.ko   rtc-isl1208.ko  rtc-mt6397.ko   rtc-pcf85063.ko  rtc-pcf8563.ko  rtc-rv3028.ko  rtc-rx8581.ko
+rtc-da9063.ko  rtc-hym8563.ko  rtc-m41t80.ko   rtc-pcf2127.ko  rtc-pcf85363.ko  rtc-rk808.ko    rtc-rv8803.ko  rtc-tps6594.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/scsi:
+mpt3sas  raid_class.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/scsi/mpt3sas:
+mpt3sas.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/slimbus:
+slimbus.ko  slim-qcom-ctrl.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/soc:
+qcom
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/soc/qcom:
+pdr_interface.ko  pmic_glink_altmode.ko  pmic_glink.ko  qcom-pbs.ko  qcom_pdr_msg.ko  qmi_helpers.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/soundwire:
+soundwire-bus.ko  soundwire-qcom.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/spi:
+spi-ch341.ko  spidev.ko  spi-dw.ko  spi-dw-mmio.ko  spi-rockchip-sfc.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/staging:
+media
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/staging/media:
+max96712
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/staging/media/max96712:
+max96712.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/thermal:
+khadas_mcu_fan.ko  rockchip_thermal.ko  thermal-generic-adc.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/ufs:
+host
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/ufs/host:
+cdns-pltfrm.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/usb:
+cdns3  class  gadget  host  misc  serial  typec
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/usb/cdns3:
+cdns3.ko  cdns3-pci-wrap.ko  cdns-usb-common.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/usb/class:
+cdc-acm.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/usb/gadget:
+function  legacy  libcomposite.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/usb/gadget/function:
+u_ether.ko    usb_f_ecm.ko         usb_f_eem.ko  usb_f_mass_storage.ko  usb_f_obex.ko   usb_f_serial.ko
+usb_f_acm.ko  usb_f_ecm_subset.ko  usb_f_fs.ko   usb_f_ncm.ko           usb_f_rndis.ko  u_serial.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/usb/gadget/legacy:
+g_mass_storage.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/usb/host:
+xhci-pci-renesas.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/usb/misc:
+onboard_usb_dev.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/usb/serial:
+cp210x.ko  ftdi_sio.ko  option.ko  usbserial.ko  usb_wwan.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/usb/typec:
+altmodes  hd3ss3220.ko  mux  tcpm  tipd  typec.ko  ucsi
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/usb/typec/altmodes:
+typec_displayport.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/usb/typec/mux:
+fsa4480.ko  gpio-sbu-mux.ko  nb7vpq904m.ko  wcd939x-usbss.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/usb/typec/tcpm:
+fusb302.ko  tcpci.ko  tcpm.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/usb/typec/tipd:
+tps6598x.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/usb/typec/ucsi:
+typec_ucsi.ko  ucsi_ccg.ko  ucsi_glink.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/video:
+backlight
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/video/backlight:
+backlight.ko  lp855x_bl.ko  pwm_bl.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/xen:
+xen-pciback
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/drivers/xen/xen-pciback:
+xen-pciback.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/fs:
+btrfs  fuse  nfs  overlayfs  pstore  ubifs
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/fs/btrfs:
+btrfs.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/fs/fuse:
+cuse.ko  fuse.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/fs/nfs:
+blocklayout
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/fs/nfs/blocklayout:
+blocklayoutdriver.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/fs/overlayfs:
+overlay.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/fs/pstore:
+ramoops.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/fs/ubifs:
+ubifs.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/lib:
+crc-ccitt.ko  crypto  libcrc32c.ko  raid6  reed_solomon  zstd
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/lib/crypto:
+libarc4.ko  libcurve25519-generic.ko  libdes.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/lib/raid6:
+raid6_pq.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/lib/reed_solomon:
+reed_solomon.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/lib/zstd:
+zstd_compress.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/net:
+802  8021q  bluetooth  bridge  can  dsa  ipv4  ipv6  llc  mac80211  netfilter  nfc  qrtr  rfkill  sched  wireless
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/net/802:
+garp.ko  mrp.ko  p8022.ko  psnap.ko  stp.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/net/8021q:
+8021q.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/net/bluetooth:
+bluetooth.ko  hidp
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/net/bluetooth/hidp:
+hidp.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/net/bridge:
+bridge.ko  br_netfilter.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/net/can:
+can-bcm.ko  can-gw.ko  can.ko  can-raw.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/net/dsa:
+dsa_core.ko  tag_brcm.ko  tag_none.ko  tag_ocelot_8021q.ko  tag_ocelot.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/net/ipv4:
+ip_tunnel.ko  netfilter  tunnel4.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/net/ipv4/netfilter:
+iptable_filter.ko  iptable_mangle.ko  iptable_nat.ko  ip_tables.ko  ipt_REJECT.ko  nf_defrag_ipv4.ko  nf_reject_ipv4.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/net/ipv6:
+ipv6.ko  netfilter  sit.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/net/ipv6/netfilter:
+ip6table_filter.ko  ip6table_mangle.ko  ip6table_nat.ko  ip6_tables.ko  ip6t_REJECT.ko  nf_defrag_ipv6.ko  nf_reject_ipv6.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/net/llc:
+llc.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/net/mac80211:
+mac80211.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/net/netfilter:
+ipvs             nf_log_syslog.ko  x_tables.ko     xt_CHECKSUM.ko   xt_ipvs.ko  xt_mark.ko        xt_nat.ko
+nf_conntrack.ko  nf_nat.ko         xt_addrtype.ko  xt_conntrack.ko  xt_LOG.ko   xt_MASQUERADE.ko  xt_tcpudp.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/net/netfilter/ipvs:
+ip_vs.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/net/nfc:
+nci  nfc.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/net/nfc/nci:
+nci.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/net/qrtr:
+qrtr.ko  qrtr-mhi.ko  qrtr-smd.ko  qrtr-tun.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/net/rfkill:
+rfkill.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/net/sched:
+act_gact.ko  act_mirred.ko  cls_flower.ko  sch_etf.ko      sch_mqprio.ko      sch_taprio.ko
+act_gate.ko  cls_basic.ko   sch_cbs.ko     sch_ingress.ko  sch_mqprio_lib.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/net/wireless:
+cfg80211.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/sound:
+drivers  soc
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/sound/drivers:
+snd-aloop.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/sound/soc:
+codecs  fsl  generic  rockchip
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/sound/soc/codecs:
+snd-soc-adau7002.ko       snd-soc-lpass-macro-common.ko  snd-soc-pcm3168a-i2c.ko      snd-soc-spdif-rx.ko           snd-soc-wcd938x-sdw.ko
+snd-soc-ak4613.ko         snd-soc-lpass-rx-macro.ko      snd-soc-pcm3168a.ko          snd-soc-spdif-tx.ko           snd-soc-wcd939x.ko
+snd-soc-ak4619.ko         snd-soc-lpass-tx-macro.ko      snd-soc-rk3308.ko            snd-soc-tas2552.ko            snd-soc-wcd939x-sdw.ko
+snd-soc-bt-sco.ko         snd-soc-lpass-va-macro.ko      snd-soc-rk817.ko             snd-soc-tas571x.ko            snd-soc-wcd-classh.ko
+snd-soc-cros-ec-codec.ko  snd-soc-lpass-wsa-macro.ko     snd-soc-rl6231.ko            snd-soc-tlv320aic31xx.ko      snd-soc-wcd-mbhc.ko
+snd-soc-da7213.ko         snd-soc-max98357a.ko           snd-soc-rt5514.ko            snd-soc-tlv320aic32x4-i2c.ko  snd-soc-wm8524.ko
+snd-soc-da7219.ko         snd-soc-max98390.ko            snd-soc-rt5514-spi.ko        snd-soc-tlv320aic32x4.ko      snd-soc-wm8904.ko
+snd-soc-dmic.ko           snd-soc-max98927.ko            snd-soc-rt5640.ko            snd-soc-tlv320aic3x-i2c.ko    snd-soc-wm8960.ko
+snd-soc-es7134.ko         snd-soc-msm8916-analog.ko      snd-soc-rt5645.ko            snd-soc-tlv320aic3x.ko        snd-soc-wm8962.ko
+snd-soc-es7241.ko         snd-soc-msm8916-digital.ko     snd-soc-rt5659.ko            snd-soc-ts3a227e.ko           snd-soc-wm8978.ko
+snd-soc-es8316.ko         snd-soc-mt6357.ko              snd-soc-sgtl5000.ko          snd-soc-wcd9335.ko            snd-soc-wsa881x.ko
+snd-soc-gtm601.ko         snd-soc-mt6358.ko              snd-soc-simple-amplifier.ko  snd-soc-wcd934x.ko            snd-soc-wsa883x.ko
+snd-soc-hdmi-codec.ko     snd-soc-nau8822.ko             snd-soc-simple-mux.ko        snd-soc-wcd938x.ko            snd-soc-wsa884x.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/sound/soc/fsl:
+snd-soc-fsl-asrc.ko    snd-soc-fsl-easrc.ko  snd-soc-fsl-micfil.ko  snd-soc-fsl-spdif.ko  snd-soc-fsl-utils.ko
+snd-soc-fsl-audmix.ko  snd-soc-fsl-esai.ko   snd-soc-fsl-sai.ko     snd-soc-fsl-ssi.ko    snd-soc-imx-audmux.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/sound/soc/generic:
+snd-soc-audio-graph-card2.ko  snd-soc-audio-graph-card.ko  snd-soc-simple-card.ko  snd-soc-simple-card-utils.ko
+
+/usr/lib/modules/6.12.30-g0c56a5112963/kernel/sound/soc/rockchip:
+snd-soc-rk3399-gru-sound.ko  snd-soc-rockchip-i2s.ko  snd-soc-rockchip-i2s-tdm.ko  snd-soc-rockchip-rt5645.ko  snd-soc-rockchip-spdif.ko
+mworkste@Pi5agv:~$
