@@ -1,0 +1,487 @@
+mworkste@mcobot:~/fairino_build/slave_station$ find ~/fairino_build -type f -name '*.so*' | while read lib; do
+  echo "=== $lib ==="
+  file "$lib"
+done
+=== /home/mworkste/fairino_build/webrecovery/libgo.so ===
+/home/mworkste/fairino_build/webrecovery/libgo.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, with debug_info, not stripped
+=== /home/mworkste/fairino_build/controller/libqbotmath.so ===
+/home/mworkste/fairino_build/controller/libqbotmath.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, BuildID[sha1]=ace158137952ecc05debda8b7aeee6662e947cdf, not stripped
+=== /home/mworkste/fairino_build/controller/libqbotsmoothtrajectory.so ===
+/home/mworkste/fairino_build/controller/libqbotsmoothtrajectory.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, BuildID[sha1]=df568abc1d72f4f4cbd4c107fde607df9dbf7856, not stripped
+=== /home/mworkste/fairino_build/controller/libfrmcintelligenttrajectory.so ===
+/home/mworkste/fairino_build/controller/libfrmcintelligenttrajectory.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, with debug_info, not stripped
+=== /home/mworkste/fairino_build/controller/libidl115DriverLinux.so.1.0.764.0 ===
+/home/mworkste/fairino_build/controller/libidl115DriverLinux.so.1.0.764.0: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, BuildID[sha1]=e31600b4b216947f52202ce61e3ca03c98f6045a, with debug_info, not stripped
+=== /home/mworkste/fairino_build/controller/libfrexhal.so ===
+/home/mworkste/fairino_build/controller/libfrexhal.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, with debug_info, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libc_malloc_debug.so.0 ===
+/home/mworkste/fairino_build/controller/lib32/libc_malloc_debug.so.0: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, for GNU/Linux 3.2.0, with debug_info, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libnsl.so.1 ===
+/home/mworkste/fairino_build/controller/lib32/libnsl.so.1: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, for GNU/Linux 3.2.0, with debug_info, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libz.so.1.2.13 ===
+/home/mworkste/fairino_build/controller/lib32/libz.so.1.2.13: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, with debug_info, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libstdc++.so.6.0.30 ===
+/home/mworkste/fairino_build/controller/lib32/libstdc++.so.6.0.30: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (GNU/Linux), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libfwlib32.so ===
+/home/mworkste/fairino_build/controller/lib32/libfwlib32.so: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, BuildID[sha1]=6bd05fa537759d235d2c2c2587c093304a8dc716, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libthread_db.so ===
+/home/mworkste/fairino_build/controller/lib32/libthread_db.so: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, for GNU/Linux 3.2.0, with debug_info, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libstdc++.so.6.0.30-gdb.py ===
+/home/mworkste/fairino_build/controller/lib32/libstdc++.so.6.0.30-gdb.py: Python script, ASCII text executable
+=== /home/mworkste/fairino_build/controller/lib32/libatomic.so ===
+/home/mworkste/fairino_build/controller/lib32/libatomic.so: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (GNU/Linux), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libBrokenLocale.so.1 ===
+/home/mworkste/fairino_build/controller/lib32/libBrokenLocale.so.1: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, for GNU/Linux 3.2.0, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libfwlib32.so.1 ===
+/home/mworkste/fairino_build/controller/lib32/libfwlib32.so.1: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, BuildID[sha1]=6bd05fa537759d235d2c2c2587c093304a8dc716, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libcrypt.so.1 ===
+/home/mworkste/fairino_build/controller/lib32/libcrypt.so.1: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, for GNU/Linux 3.2.0, with debug_info, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libnss_hesiod.so ===
+/home/mworkste/fairino_build/controller/lib32/libnss_hesiod.so: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, for GNU/Linux 3.2.0, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libgomp.so ===
+/home/mworkste/fairino_build/controller/lib32/libgomp.so: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, with debug_info, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libnss_compat.so ===
+/home/mworkste/fairino_build/controller/lib32/libnss_compat.so: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, for GNU/Linux 3.2.0, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libstdc++.so.6 ===
+/home/mworkste/fairino_build/controller/lib32/libstdc++.so.6: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (GNU/Linux), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libmemusage.so ===
+/home/mworkste/fairino_build/controller/lib32/libmemusage.so: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, for GNU/Linux 3.2.0, with debug_info, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libgfortran.so ===
+/home/mworkste/fairino_build/controller/lib32/libgfortran.so: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, with debug_info, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libnss_dns.so.2 ===
+/home/mworkste/fairino_build/controller/lib32/libnss_dns.so.2: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, for GNU/Linux 3.2.0, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libm.so.6 ===
+/home/mworkste/fairino_build/controller/lib32/libm.so.6: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, for GNU/Linux 3.2.0, with debug_info, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libnss_hesiod.so.2 ===
+/home/mworkste/fairino_build/controller/lib32/libnss_hesiod.so.2: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, for GNU/Linux 3.2.0, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libgfortran.so.5 ===
+/home/mworkste/fairino_build/controller/lib32/libgfortran.so.5: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, with debug_info, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libgomp.so.1 ===
+/home/mworkste/fairino_build/controller/lib32/libgomp.so.1: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, with debug_info, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libz.so ===
+/home/mworkste/fairino_build/controller/lib32/libz.so: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, with debug_info, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libgomp.so.1.0.0 ===
+/home/mworkste/fairino_build/controller/lib32/libgomp.so.1.0.0: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, with debug_info, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/librt.so.1 ===
+/home/mworkste/fairino_build/controller/lib32/librt.so.1: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, for GNU/Linux 3.2.0, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libc.so ===
+/home/mworkste/fairino_build/controller/lib32/libc.so: ASCII text
+=== /home/mworkste/fairino_build/controller/lib32/libutil.so.1 ===
+/home/mworkste/fairino_build/controller/lib32/libutil.so.1: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, for GNU/Linux 3.2.0, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libnss_files.so.2 ===
+/home/mworkste/fairino_build/controller/lib32/libnss_files.so.2: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, for GNU/Linux 3.2.0, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libgfortran.so.5.0.0 ===
+/home/mworkste/fairino_build/controller/lib32/libgfortran.so.5.0.0: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, with debug_info, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libdl.so.2 ===
+/home/mworkste/fairino_build/controller/lib32/libdl.so.2: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, for GNU/Linux 3.2.0, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libc.so.6 ===
+/home/mworkste/fairino_build/controller/lib32/libc.so.6: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (GNU/Linux), dynamically linked, interpreter /lib/ld-linux-armhf.so.3, for GNU/Linux 3.2.0, with debug_info, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libresolv.so.2 ===
+/home/mworkste/fairino_build/controller/lib32/libresolv.so.2: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, for GNU/Linux 3.2.0, with debug_info, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libfwlib32.so.1.0.5 ===
+/home/mworkste/fairino_build/controller/lib32/libfwlib32.so.1.0.5: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, BuildID[sha1]=6bd05fa537759d235d2c2c2587c093304a8dc716, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libanl.so.1 ===
+/home/mworkste/fairino_build/controller/lib32/libanl.so.1: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, for GNU/Linux 3.2.0, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libnss_compat.so.2 ===
+/home/mworkste/fairino_build/controller/lib32/libnss_compat.so.2: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, for GNU/Linux 3.2.0, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libatomic.so.1.2.0 ===
+/home/mworkste/fairino_build/controller/lib32/libatomic.so.1.2.0: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (GNU/Linux), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libnss_db.so ===
+/home/mworkste/fairino_build/controller/lib32/libnss_db.so: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, for GNU/Linux 3.2.0, with debug_info, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libpthread.so.0 ===
+/home/mworkste/fairino_build/controller/lib32/libpthread.so.0: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, for GNU/Linux 3.2.0, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libz.so.1 ===
+/home/mworkste/fairino_build/controller/lib32/libz.so.1: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, with debug_info, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libpcprofile.so ===
+/home/mworkste/fairino_build/controller/lib32/libpcprofile.so: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, for GNU/Linux 3.2.0, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libthread_db.so.1 ===
+/home/mworkste/fairino_build/controller/lib32/libthread_db.so.1: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, for GNU/Linux 3.2.0, with debug_info, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libm.so ===
+/home/mworkste/fairino_build/controller/lib32/libm.so: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, for GNU/Linux 3.2.0, with debug_info, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/ld-linux-armhf.so.3 ===
+/home/mworkste/fairino_build/controller/lib32/ld-linux-armhf.so.3: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), static-pie linked, with debug_info, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libnss_db.so.2 ===
+/home/mworkste/fairino_build/controller/lib32/libnss_db.so.2: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, for GNU/Linux 3.2.0, with debug_info, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libresolv.so ===
+/home/mworkste/fairino_build/controller/lib32/libresolv.so: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, for GNU/Linux 3.2.0, with debug_info, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libgcc_s.so ===
+/home/mworkste/fairino_build/controller/lib32/libgcc_s.so: ASCII text
+=== /home/mworkste/fairino_build/controller/lib32/libgcc_s.so.1 ===
+/home/mworkste/fairino_build/controller/lib32/libgcc_s.so.1: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, with debug_info, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libstdc++.so ===
+/home/mworkste/fairino_build/controller/lib32/libstdc++.so: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (GNU/Linux), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/controller/lib32/libatomic.so.1 ===
+/home/mworkste/fairino_build/controller/lib32/libatomic.so.1: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (GNU/Linux), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/controller/libfrmcforcetorque.so ===
+/home/mworkste/fairino_build/controller/libfrmcforcetorque.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, with debug_info, not stripped
+=== /home/mworkste/fairino_build/controller/libqbotmotioncontrol.so ===
+/home/mworkste/fairino_build/controller/libqbotmotioncontrol.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, with debug_info, not stripped
+=== /home/mworkste/fairino_build/controller/libfrcmdinterface.so ===
+/home/mworkste/fairino_build/controller/libfrcmdinterface.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, with debug_info, not stripped
+=== /home/mworkste/fairino_build/controller/libqbottools.so ===
+/home/mworkste/fairino_build/controller/libqbottools.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, with debug_info, not stripped
+=== /home/mworkste/fairino_build/controller/libqbothal.so ===
+/home/mworkste/fairino_build/controller/libqbothal.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, with debug_info, not stripped
+=== /home/mworkste/fairino_build/controller/libfrexdriver.so ===
+/home/mworkste/fairino_build/controller/libfrexdriver.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, with debug_info, not stripped
+=== /home/mworkste/fairino_build/controller/libSRL.so ===
+/home/mworkste/fairino_build/controller/libSRL.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, with debug_info, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_watchdog.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_watchdog.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_session_cookie.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_session_cookie.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_substitute.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_substitute.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_slotmem_shm.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_slotmem_shm.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_proxy_http.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_proxy_http.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_proxy_uwsgi.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_proxy_uwsgi.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_lbmethod_heartbeat.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_lbmethod_heartbeat.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_proxy_fcgi.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_proxy_fcgi.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_request.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_request.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_alias.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_alias.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_authz_core.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_authz_core.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_proxy_balancer.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_proxy_balancer.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_rewrite.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_rewrite.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_autoindex.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_autoindex.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_buffer.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_buffer.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_proxy_connect.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_proxy_connect.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_cgi.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_cgi.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_unique_id.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_unique_id.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_authz_groupfile.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_authz_groupfile.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_fr_handler.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_fr_handler.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, with debug_info, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_include.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_include.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_cgid.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_cgid.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_speling.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_speling.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_auth_basic.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_auth_basic.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_logio.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_logio.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_proxy_ajp.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_proxy_ajp.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_authn_anon.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_authn_anon.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_dav.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_dav.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_filter.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_filter.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_allowmethods.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_allowmethods.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_auth_form.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_auth_form.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_info.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_info.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_authz_host.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_authz_host.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_proxy_fdpass.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_proxy_fdpass.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_log_config.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_log_config.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_file_cache.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_file_cache.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_remoteip.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_remoteip.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_userdir.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_userdir.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_cache_disk.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_cache_disk.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_proxy_wstunnel.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_proxy_wstunnel.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_dbd.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_dbd.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_proxy_ftp.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_proxy_ftp.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_lbmethod_byrequests.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_lbmethod_byrequests.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_macro.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_macro.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_env.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_env.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_ratelimit.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_ratelimit.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_vhost_alias.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_vhost_alias.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_unixd.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_unixd.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_authn_dbd.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_authn_dbd.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_cache.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_cache.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_lbmethod_bybusyness.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_lbmethod_bybusyness.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_socache_dbm.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_socache_dbm.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_socache_redis.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_socache_redis.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_authz_dbm.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_authz_dbm.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_authz_user.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_authz_user.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_access_compat.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_access_compat.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_session.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_session.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_authn_socache.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_authn_socache.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_dav_fs.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_dav_fs.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_status.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_status.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_reqtimeout.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_reqtimeout.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_sed.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_sed.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_setenvif.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_setenvif.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_proxy_hcheck.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_proxy_hcheck.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_session_dbd.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_session_dbd.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_socache_memcache.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_socache_memcache.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_expires.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_expires.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_headers.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_headers.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_actions.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_actions.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_dir.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_dir.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_socache_shmcb.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_socache_shmcb.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_mime.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_mime.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_log_debug.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_log_debug.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_proxy_express.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_proxy_express.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_authn_dbm.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_authn_dbm.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_proxy_scgi.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_proxy_scgi.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_version.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_version.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_authn_file.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_authn_file.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_proxy.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_proxy.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_negotiation.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_negotiation.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_authz_dbd.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_authz_dbd.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_lbmethod_bytraffic.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_lbmethod_bytraffic.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_authz_owner.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_authz_owner.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_cache_socache.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_cache_socache.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_dumpio.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_dumpio.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_auth_digest.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_auth_digest.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_ext_filter.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_ext_filter.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd/modules/mod_authn_core.so ===
+/home/mworkste/fairino_build/web/httpd/modules/mod_authn_core.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_watchdog.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_watchdog.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_session_cookie.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_session_cookie.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_substitute.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_substitute.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_slotmem_shm.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_slotmem_shm.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_proxy_http.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_proxy_http.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_proxy_uwsgi.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_proxy_uwsgi.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_lbmethod_heartbeat.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_lbmethod_heartbeat.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_proxy_fcgi.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_proxy_fcgi.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_request.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_request.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_alias.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_alias.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_authz_core.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_authz_core.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_proxy_balancer.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_proxy_balancer.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_rewrite.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_rewrite.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_autoindex.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_autoindex.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_buffer.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_buffer.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_proxy_connect.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_proxy_connect.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_cgi.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_cgi.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_unique_id.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_unique_id.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_authz_groupfile.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_authz_groupfile.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_fr_handler.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_fr_handler.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, with debug_info, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_include.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_include.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_cgid.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_cgid.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_speling.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_speling.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_auth_basic.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_auth_basic.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_logio.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_logio.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_proxy_ajp.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_proxy_ajp.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_authn_anon.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_authn_anon.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_dav.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_dav.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_fr_handler.so.bak ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_fr_handler.so.bak: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, with debug_info, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_filter.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_filter.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_allowmethods.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_allowmethods.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_auth_form.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_auth_form.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_info.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_info.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_authz_host.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_authz_host.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_proxy_fdpass.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_proxy_fdpass.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_log_config.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_log_config.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_file_cache.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_file_cache.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_remoteip.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_remoteip.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_userdir.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_userdir.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_cache_disk.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_cache_disk.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_proxy_wstunnel.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_proxy_wstunnel.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_dbd.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_dbd.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_proxy_ftp.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_proxy_ftp.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_lbmethod_byrequests.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_lbmethod_byrequests.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_macro.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_macro.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_env.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_env.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_ratelimit.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_ratelimit.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_vhost_alias.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_vhost_alias.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_unixd.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_unixd.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_authn_dbd.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_authn_dbd.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_cache.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_cache.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_lbmethod_bybusyness.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_lbmethod_bybusyness.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_socache_dbm.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_socache_dbm.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_socache_redis.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_socache_redis.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_authz_dbm.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_authz_dbm.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_authz_user.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_authz_user.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_access_compat.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_access_compat.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_session.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_session.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_authn_socache.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_authn_socache.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_dav_fs.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_dav_fs.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_status.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_status.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_reqtimeout.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_reqtimeout.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_sed.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_sed.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_setenvif.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_setenvif.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_proxy_hcheck.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_proxy_hcheck.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_session_dbd.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_session_dbd.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_socache_memcache.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_socache_memcache.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_expires.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_expires.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_headers.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_headers.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_actions.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_actions.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_dir.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_dir.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_socache_shmcb.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_socache_shmcb.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_mime.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_mime.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_log_debug.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_log_debug.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_proxy_express.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_proxy_express.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_authn_dbm.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_authn_dbm.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_proxy_scgi.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_proxy_scgi.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_version.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_version.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_authn_file.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_authn_file.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_proxy.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_proxy.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_negotiation.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_negotiation.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_authz_dbd.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_authz_dbd.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_lbmethod_bytraffic.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_lbmethod_bytraffic.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_authz_owner.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_authz_owner.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_cache_socache.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_cache_socache.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_dumpio.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_dumpio.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_auth_digest.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_auth_digest.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_ext_filter.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_ext_filter.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_authn_core.so ===
+/home/mworkste/fairino_build/web/httpd_webrecovery/modules/mod_authn_core.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+=== /home/mworkste/fairino_build/slave_station/srl_interpret/libidl115DriverLinux.so.1.0.764.0 ===
+/home/mworkste/fairino_build/slave_station/srl_interpret/libidl115DriverLinux.so.1.0.764.0: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, BuildID[sha1]=e31600b4b216947f52202ce61e3ca03c98f6045a, with debug_info, not stripped
+=== /home/mworkste/fairino_build/slave_station/srl_interpret/libSRL.so ===
+/home/mworkste/fairino_build/slave_station/srl_interpret/libSRL.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, with debug_info, not stripped
+mworkste@mcobot:~/fairino_build/slave_station$
